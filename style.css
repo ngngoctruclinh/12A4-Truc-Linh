@@ -29,6 +29,10 @@ text-align: center;
 .menu{
   flex:5%;
   background-color: FireBrick;
+  display: flex;
+}
+.menu a{
+  padding: 15px 20px;
 }
 .content{
   flex:70%;
