@@ -29,7 +29,12 @@ text-align: center;
 .menu{
   flex:5%;
   background-color: FireBrick;
+  color: white;
   display: flex;
+}
+.menu hover{
+  background-color: lightgray;
+  color: black;
 }
 .menu a{
   padding: 15px 20px;
