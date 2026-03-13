@@ -25,6 +25,8 @@ text-align: center;
 .header{
   flex:15%;
   background-color: Crimson;
+  background: url("..images/1000016680 (1).png") center/100%;
+  aspect-ratio: 6/1;
 }
 .menu{
   flex:5%;
