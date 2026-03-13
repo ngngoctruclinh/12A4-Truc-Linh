@@ -25,7 +25,7 @@ text-align: center;
 .header{
   flex:15%;
   background-color: Crimson;
-  background:"images/1000016828.jpg" center/100%;
+  background-image:"images/1000016828.jpg" center/100%;
   aspect-ratio: 6/1;
 }
 .menu{
