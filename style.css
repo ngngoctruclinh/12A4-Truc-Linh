@@ -34,7 +34,7 @@ text-align: center;
   color: white;
   display: flex;
 }
-.menu hover{
+.menu a:hover{
   background-color: lightgray;
   color: black;
 }
