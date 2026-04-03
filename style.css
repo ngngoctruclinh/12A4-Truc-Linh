@@ -24,7 +24,6 @@ text-align: center;
 }
 .header{
   flex:15%;
-  background-color: Dark Crimson;
   background:url("images/1000016828.jpg");
   background-size: cover;
   aspect-ratio: 6/1;
@@ -54,7 +53,7 @@ text-align: center;
 }
 .footer{
   flex:10%;
-  background-color: Dark Crimson;
+  background-color: FireBrick;
 }
 
 
