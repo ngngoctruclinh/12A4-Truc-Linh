@@ -3,15 +3,15 @@
      <meta charset="utf-8">
   </head>
   <body>
-    <form action="Bai7.html">
-      <p id="kq"></p>
+    <p id="kq"></p>
       <script>
-        let pp= new URLSearchpp(window.location.search);
+        let pp= new URLSearchParams(window.location.search);
         let name= pp.get("txtTen");
-        let yk= pp.get(" txtComment");
+        let yk= pp.get("txtComment");
         document.getElementById("kq").innerHTML="Cám ơn Bạn"+name+"đã góp ý"<br>
          "Chúng tôi xin ghi nhận góp ý của bạn như sau:"<br>+yk+".";
       </script>
+    <form action="Bai7.html">
       <input type="submit" name="back" value="Quay lại">
     </form>
   </body>
